@@ -302,15 +302,51 @@ footer p {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
     /* Medium Devices, Desktops */
-    @media only screen and (max-width : 980px) {
+    @media screen and (max-width : 980px) {
+
+
+		.container {
+			max-width: 750px;
+			margin: 0 auto;
+}	
+		/*** Main Content (Global) ***/
+	
+		#about, #portfolio, #contact {
+			width: 420px;
+			float: left;
+		}
+
+		/*** About Page ***/
+
+		.headshot {
+			margin: 0 auto;
+			float: none;
+			text-align: center;
+		}
+
+		.headshot img {
+			max-width: 350px;
+		}	
+
+		/*** Portfolio Page ***/
+
+		.gallery {
+			max-width: 350px;
+			padding: 30px 30px;
+
+		}
+
+		.banner {
+			width: 260px;
+		}
 
     }
 
     /* Small Devices, Tablets */
-    @media only screen and (max-width : 768px) {
+    @media screen and (max-width : 768px) {
     }
 
     /* Extra Small Devices, Phones */ 
-    @media only screen and (max-width : 640px) {
+    @media screen and (max-width : 640px) {
 
     }
