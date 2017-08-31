@@ -298,7 +298,7 @@ footer p {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
     /* Medium Devices, Desktops */
-    @media only screen and (max-width : 980px) {
+    @media screen and (max-width : 980px) {
 
 		/*** Base Styles ***/
 
@@ -335,7 +335,7 @@ footer p {
     }
 
     /* Small Devices, Tablets */
-    @media only screen and (max-width : 768px) {
+    @media screen and (max-width : 768px) {
     
 		/*** Base Styles ***/
 		.container {
@@ -387,19 +387,89 @@ footer p {
 			overflow: hidden;
 		}
 	
+	}
 
     /* Extra Small Devices, Phones */ 
-    @media only screen and (max-width : 640px) {
+    @media screen and (max-width : 640px) {
+
+		/*** Base Styles ***/
 
 		.container {
-			max-width: 600px;
+			max-width: 640px;
+			margin-left: 0px;
+			margin-right: 0px;
+		}
+
+
+		p {
+			font-size: .875em; 
+			line-height: 1.75em;
+		}
+
+		h2 {
+			font-size: 1.4em;
+		}
+
+		#about, #portfolio, #contact, #connect {
+			max-width: 95%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		/*** Header ***/
+
+		header {
+			height: 130px;
+		}
+
+
+		.logo {
+			float: none;
+			text-align: center;
+		}
+
+
+		nav ul {
+			float: none;
+			text-align: center;
+			margin-top: 0px;
+		}
+
+		nav li {
+			float: none;
+			display: inline-block;
+			width: 30%;
+			font-size: .875em;
+
 		}
 
 		/*** Main Content (Global) ***/
 
 		#about, #portfolio, #contact {
-			width: 600px;
 			float: none;
 		}
 
+		/*** About Page ***/
+
+		.headshot {
+			margin: 0 auto;
+			float: none;
+			text-align: center;
+		}
+
+		.headshot img {
+			max-width: 580px;
+		}	
+
+		.gallery {
+			max-width: 350px;
+			padding: 30px 30px;
+		}
+
+		/* Footer */
+
+		footer p {
+			padding: 24px;
+		}
     }
+
