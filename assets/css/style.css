@@ -338,6 +338,7 @@ footer p {
     @media screen and (max-width : 768px) {
     
 		/*** Base Styles ***/
+
 		.container {
 			max-width: 728px;
 			margin-left: 20px;
@@ -410,10 +411,13 @@ footer p {
 			font-size: 1.4em;
 		}
 
+		/*** Main Content (Global) ***/
+
 		#about, #portfolio, #contact, #connect {
 			max-width: 95%;
 			margin-left: auto;
 			margin-right: auto;
+			float: none;
 		}
 
 		/*** Header ***/
@@ -441,12 +445,6 @@ footer p {
 			width: 30%;
 			font-size: .875em;
 
-		}
-
-		/*** Main Content (Global) ***/
-
-		#about, #portfolio, #contact {
-			float: none;
 		}
 
 		/*** About Page ***/
